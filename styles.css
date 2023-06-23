@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+* {
+	font-size: 10px;
+}
+h1 {
+	background-color: #011e29;
+	color: white;
+	text-align: center;
+}
+
+body {
+	background-color: #f5f5f5;
+	margin: 5px;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-around;
+	
+	
+}
+.flex div {
+	width: 30vw;
+	border: 1px solid black;
+	justify-content: space-between;
+	margin-inline: 20px;
+}
+
+div img {
+	height: 100px;
+}
+
+ h2 {
+	 text-align: center;
+ }
+.flex_1 {
+	height: 15vw;
+	padding:10px;
+	flex: 2;
+}
+
+div>p{
+	padding:10px;
+}
+
+.flex_2 {
+	height: 30vw;
+	wrap-text: wrap;
+	flex: 4;
+}
+
+.flex_3 {
+	flex: 1;
+}
